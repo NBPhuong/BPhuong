@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1{
+    color: blue;
+}
+.home{
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.home img{
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    border-radius: 50%;
+    box-shadow: 9px 9px 35px -8px rgba(75, 77, 234, 0.69) ;
+}
+.home h1{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #000;
+}
+.home h1{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home p{
+    text-align: justify;
+    margin: 10px;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+nav{
+    width: 250px;
+    height: 100%;
+    margin-left: 0;
+    position: fixed;
+    overflow: hidden;
+    background: #7095e5c0;
+    box-shadow: 9px 9px 35px -8px rgba(75, 77, 234, 0.69) ;
+    text-align: center;
+}
+nav img{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.headname{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Ma Shan Zheng", cursive;
+    color: #000;
+
+
+}
+nav ul {
+    font-family: "Titillium Web", sans-serif;
+    line-height: 50px;
+    font-size: 20px;
+    width: 100%;
+   background-color: white;
+}
+li{
+    color: black;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+nav a:after {
+    border-radius: 1em;
+    border-bottom: 0.1em solid #000;
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: 0.14em;
+    left: 0;
+  }
+nav a:hover:after {
+    right: 0;
+  }
+  /*///////////////////////// main and Home styles /////////////////// */
+  .main {
+    margin-left: 300px;
+  }
+  #about{
+    margin: 0px 50px 50px 50px;
+    text-align: center;
+
+  }
+  #about p{
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 30px;
+    margin: 10px;
+    font-size: 18px;
+  }
+  #achievenment h1{
+    text-align: center;
+  }
+  .achievemant-detail ul{
+    margin: 0px 0px 15px 80px;
+
+    
+  }
+  .achievemant-detail ul h2{
+margin-left: 20px;    
+font-size: 20px;
+margin-bottom:5px;
+  }
+  .achievemant-detail  li{
+    font-family: sans-serif;
+    color: rgb(32, 32, 31);
+}
+#photo{
+    margin-left: 50px;
+}
+#photo h1{
+    text-align: center;
+   
+  }
+#photo img{
+    margin-left: 70px;
+    width: 350px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#contact{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#contact h1{
+  text-align: center;
+  margin-top: 30px;
+}
+.contact-social{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.contact-social img{
+  width: 100px;
+  height: 100px;
+  padding-right: 30px;
+}
+footer p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: right;
+margin: 100px 20px 20px 0px;}
